@@ -7,13 +7,7 @@ class IntroPage3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/splashbg.png"), // Background image path
-            fit: BoxFit.cover, // Covers the entire background
-          ),
-        ),
+      body: SafeArea(
         child: Column(
           children: [
             Image.asset(
@@ -30,7 +24,7 @@ class IntroPage3 extends StatelessWidget {
                 style: GoogleFonts.montserrat(
                   fontSize: 24,
                   fontWeight: FontWeight.w700,
-                  color: Colors.white, // Customize the color if necessary
+                  color: Colors.black, // Customize the color if necessary
                 ),
               ),
             ),

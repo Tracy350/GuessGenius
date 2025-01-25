@@ -9,7 +9,6 @@ import 'package:guessgenius/theme.dart';
 import 'package:guessgenius/widgets/my_button.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
 
@@ -64,7 +63,7 @@ class _OnboardingState extends State<Onboarding> {
                               width: 100,
                               height: 50,
                               color: Colors.white)),
-                      SmoothPageIndicator(controller: _controller, count: 4),
+                      SmoothPageIndicator( controller: _controller, count: 4, ),
                       onLastPage
                           ? GestureDetector(
                               onTap: () {

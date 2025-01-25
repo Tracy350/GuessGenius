@@ -1,0 +1,44 @@
+<!-- Your plan for the Guess Genius game sounds great! Here's a breakdown of how the logic could flow:  
+
+### Game Flow:
+1. **Start Screen:**
+   - Includes a "Start Game" button.
+   - Instructions or a brief overview of the game.
+
+2. **Game Screen:**
+   - Displays the current round number (e.g., "Round 1/20").
+   - Timer countdown (10 seconds per round).
+   - Hint section at the bottom to guide the player.
+   - Text input for the player to enter their guess.
+   - "Guess" button to submit the answer.
+
+3. **Logic for Each Round:**
+   - Start the timer when the round begins.
+   - Display the hint for the current round.
+   - Check the user's guess:
+     - If correct: Display success feedback and move to the next round.
+     - If incorrect or time runs out: Display failure feedback and move to the next round.
+   - Keep track of the user's score (e.g., correct guesses).
+
+4. **Results Screen:**
+   - Shows the total score and detailed performance:
+     - Number of correct guesses.
+     - Time taken for each round.
+   - A button to restart the game.
+
+5. **High Score Screen:**
+   - Displays the highest score achieved by the user.
+   - Option to return to the start screen or play again.
+
+### Key Features:
+- **Hints:** Provide subtle clues to guide the player. For example, if the number is between 1 and 100, a hint might be "Greater than 50" or "Even number."
+- **Timer:** Countdown displayed prominently, with a sound effect or visual indicator for the last few seconds.
+- **Feedback:** Immediate feedback after each guess (e.g., "Correct!" or "Try Again!").
+- **Scoring:** Track correct guesses and provide a score summary at the end.
+
+### Extras for Engagement:
+- Reward animations for correct answers.
+- Dynamic difficulty, where hints get less specific as the game progresses.
+- A streak bonus for consecutive correct guesses.  
+
+Let me know where you'd like to start implementing this! -->
